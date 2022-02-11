@@ -10,7 +10,7 @@ services:
       - "30000-30009:30000-30009"
     volumes:
       - "./data:/data"
-      - "./foo:/home/foo"
+      - "./metabase:/home/metabase"
     environment:
       - "TZ=Europe/Paris"
       - "AUTH_METHOD=puredb"
